@@ -15,8 +15,11 @@ class MainActivity : AppCompatActivity() {
             val id = edtId.text.toString()
             val password = edtPassword.text.toString()
 
-            if (id == "sohee@naver.com" && password == "0428") {
-                Toast.makeText(this, "권소희 관리자입니다.", Toast.LENGTH_SHORT).show()
+            if (id == "sohee@naver.com" && password == "0000") {
+
+                val name = "이름"
+
+                Toast.makeText(this, "${name}관리자입니다.", Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(this, "로그인 실패", Toast.LENGTH_SHORT).show()
             }
