@@ -34,7 +34,7 @@
         android:hint="이메일 양식으로 입력"
         android:inputType="textEmailAddress"
         android:layout_marginTop="16dp"
-        android:id="@+id/id"/>
+        android:id="@+id/edtId"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -50,7 +50,7 @@
         android:hint="비밀번호 입력"
         android:inputType="textPassword"
         android:layout_marginTop="16dp"
-        android:id="@+id/password"/>
+        android:id="@+id/edtPassword"/>
 
     <TextView
         android:layout_width="match_parent"
